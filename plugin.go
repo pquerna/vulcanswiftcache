@@ -18,8 +18,8 @@
 package swiftcache
 
 import (
-	"github.com/codegangsta/cli"
-	"github.com/mailgun/vulcan/middleware"
+	"github.com/mailgun/vulcand/Godeps/_workspace/src/github.com/codegangsta/cli"
+	"github.com/mailgun/vulcand/Godeps/_workspace/src/github.com/mailgun/vulcan/middleware"
 	"github.com/mailgun/vulcand/plugin"
 )
 

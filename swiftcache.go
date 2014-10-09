@@ -18,7 +18,7 @@
 package swiftcache
 
 import (
-	"github.com/mailgun/vulcan/request"
+	"github.com/mailgun/vulcand/Godeps/_workspace/src/github.com/mailgun/vulcan/request"
 	"github.com/pquerna/vulcancache"
 	"net/http"
 )
