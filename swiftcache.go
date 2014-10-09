@@ -32,7 +32,7 @@ func (sc *SwiftCacher) ProcessRequest(r request.Request) (*http.Response, error)
 }
 
 func NewSwiftCacher() (*SwiftCacher, error) {
-	c := vulcancache.NewHttpCacher()
+	c := vulcancache.NewHttpCacher(&vulcancache.CacheOptions{})
 	return &SwiftCacher{cache: c}, nil
 }
 
